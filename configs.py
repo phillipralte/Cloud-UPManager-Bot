@@ -4,14 +4,14 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
+	API_ID = int(os.environ.get("1340222")
+	API_HASH = os.environ.get("334133d7097f902e7c3776dbe5ab9ea8")
+	BOT_TOKEN = os.environ.get("5227373896:AAF-QdagR3i_X6-rClQ4S7TYMAyJRSr_blY")
 	GOFILE_API = os.environ.get("GOFILE_API")
-	STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS")
-	STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME")
-	SESSION_NAME = os.environ.get("SESSION_NAME", "CloudManagerBot")
-	BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+	STREAMTAPE_API_PASS = os.environ.get("6RV1XvxmZMc9D4Z")
+	STREAMTAPE_API_USERNAME = os.environ.get("6234b79c86891789d4ec")
+	SESSION_NAME = os.environ.get("SESSION_NAME", "streamLogosBot")
+	BOT_OWNER = int(os.environ.get("2054421248"))
 	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
 	DOWNLOAD_DIR = os.environ.get("DOWNLOAD_DIR", "./downloads")
 	HELP_TEXT = """
