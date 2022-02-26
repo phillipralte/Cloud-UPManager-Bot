@@ -1,5 +1,5 @@
 {
-    "name": "Telegram Cloud Uploads Manager Bot",
+    "name": "stream logos uploadBot",
     "description": "A Telegram Cloud Uploads Manager Bot by @AbirHasan2005",
     "keywords": [
         "telegram",
@@ -12,24 +12,30 @@
     "website": "https://telegram.dog/AbirHasan2005",
     "success_url": "https://t.me/Discovery_Updates",
     "env": {
-        "API_ID": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
-        },
+        "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "1340222"
+    },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "334133d7097f902e7c3776dbe5ab9ea8",
+            "value":"334133d7097f902e7c3776dbe5ab9ea8"
         },
         "BOT_TOKEN": {
-            "description": "Get this from @BotFather XD"
+            "description": "5227373896:AAF-QdagR3i_X6-rClQ4S7TYMAyJRSr_blY",
+            "value":"5227373896:AAF-QdagR3i_X6-rClQ4S7TYMAyJRSr_blY"
         },
         "STREAMTAPE_API_USERNAME": {
-            "description": "Streamtape API Username. Get this from https://streamtape.com/accpanel#collapseThree"
+            "description": "6234b79c86891789d4ec",
+            "value":"6234b79c86891789d4ec"
         },
         "STREAMTAPE_API_PASS": {
-            "description": "Streamtape API Password. Get this from https://streamtape.com/accpanel#collapseThree"
+            "description": "6RV1XvxmZMc9D4Z",
+            "value":"6RV1XvxmZMc9D4Z"
         },
         "BOT_OWNER": {
-            "description": "Bot Owner UserID",
-            "required": false
+            "description": "2054421248",
+            "required": false,
+            "value":"2054421248"
         },
         "LOG_CHANNEL": {
             "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
