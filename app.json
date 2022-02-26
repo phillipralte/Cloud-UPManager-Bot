@@ -32,6 +32,12 @@
             "description": "6RV1XvxmZMc9D4Z",
             "value":"6RV1XvxmZMc9D4Z"
         },
+        "GOFILE_API": {
+            "description": "2054421248",
+            "required": false,
+            "value":"RupwIg581t1kXWuvz155FWwyx3kcDqqe"
+        },
+        
         "BOT_OWNER": {
             "description": "2054421248",
             "required": false,
