@@ -12,7 +12,7 @@ class Config(object):
 	STREAMTAPE_API_USERNAME = os.environ.get("6234b79c86891789d4ec")
 	SESSION_NAME = os.environ.get("SESSION_NAME", "streamLogosBot")
 	BOT_OWNER = int(os.environ.get("2054421248"))
-	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
+	
 	DOWNLOAD_DIR = os.environ.get("DOWNLOAD_DIR", "./downloads")
 	HELP_TEXT = """
 Send me any Media & Choose Upload Server,
